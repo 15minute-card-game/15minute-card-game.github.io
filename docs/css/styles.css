@@ -10,6 +10,9 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+ em{
+  font-style:normal; 
+ }
 :root {
   --bs-blue: #1D809F;
   --bs-indigo: #6610f2;
@@ -41,7 +44,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 0,128,55;
+  --bs-primary-rgb: 140,82,255;
   /*--bs-primary-rgb: 29, 128, 159;*/
   --bs-secondary-rgb:255,222,89;
   /*--bs-secondary-rgb: 236, 184, 7;*/
@@ -105,6 +108,7 @@ hr:not([size]) {
 }
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+  font-family: var(--bs-body-font-family);
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-weight: 700;
@@ -11473,6 +11477,7 @@ footer.footer .social-link:hover {
   }
 }
 .masthead {
+  font-family: 'BIZ UDGothic', sans-serif;
   min-height: 30rem;
   position: relative;
   display: table;
@@ -11486,10 +11491,22 @@ footer.footer .social-link:hover {
   background-size: cover;
 }
 .masthead h1, .masthead .h1 {
+  font-family: 'Dela Gothic One', cursive;
+  /*font-family: 'DotGothic16', sans-serif;
+  font-family: 'Mochiy Pop One', sans-serif;
+  font-family: 'Stick', sans-serif;
+  font-family: 'Zen Maru Gothic', sans-serif;*/
+  font-weight: 500;
   font-size: 4rem;
   margin: 0;
   padding: 0;
 }
+
+.masthead h3, .masthead .h3{
+  font-family: 'Zen Maru Gothic', sans-serif;
+  font-size: 2rem;
+}
+
 
 .masthead-sub {
   min-height: 15rem;
