@@ -11492,6 +11492,7 @@ footer.footer .social-link:hover {
 }
 .masthead h1, .masthead .h1 {
   font-family: 'Dela Gothic One', cursive;
+  /*font-family: 'Rampart One', cursive;*/
   font-weight: 500;
   font-size: 4rem;
   margin: 0;
@@ -11499,8 +11500,11 @@ footer.footer .social-link:hover {
 }
 
 .masthead h3, .masthead .h3{
-  font-family: 'Zen Maru Gothic', sans-serif;
-  font-size: 2rem;
+  /*font-family: 'Zen Maru Gothic', sans-serif;
+  /font-family: 'Readex Pro', sans-serif;*/
+  font-family: 'Reem Kufi Fun', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
 }
 
 
