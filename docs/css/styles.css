@@ -44,7 +44,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 140,82,255;
+  --bs-primary-rgb: 233,233,233;
   /*--bs-primary-rgb: 29, 128, 159;*/
   --bs-secondary-rgb:255,222,89;
   /*--bs-secondary-rgb: 236, 184, 7;*/
@@ -11492,10 +11492,6 @@ footer.footer .social-link:hover {
 }
 .masthead h1, .masthead .h1 {
   font-family: 'Dela Gothic One', cursive;
-  /*font-family: 'DotGothic16', sans-serif;
-  font-family: 'Mochiy Pop One', sans-serif;
-  font-family: 'Stick', sans-serif;
-  font-family: 'Zen Maru Gothic', sans-serif;*/
   font-weight: 500;
   font-size: 4rem;
   margin: 0;
