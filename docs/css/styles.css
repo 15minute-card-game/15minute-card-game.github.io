@@ -11507,7 +11507,6 @@ footer.footer .social-link:hover {
   font-size: 2.5rem;
 }
 
-
 .masthead-sub {
   min-height: 15rem;
   position: relative;
@@ -11645,4 +11644,15 @@ footer.footer .social-link:hover {
   line-height: 7.5rem;
   font-size: 2.25rem;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.dolocal_name_ja {
+  font-family: 'Dela Gothic One', cursive;
+  font-weight: 500;
+  font-size: 1.2em;
+
+}
+.dolocal_name_en{
+  font-family: 'Reem Kufi Fun', sans-serif;
+  font-weight: 700;
 }
