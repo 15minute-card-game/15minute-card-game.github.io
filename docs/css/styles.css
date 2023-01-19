@@ -5102,7 +5102,7 @@ textarea.form-control-lg {
   padding: 0.5rem 1rem;
   color: #212529;
   text-decoration: none;
-  background-color: #fff;
+  /*background-color: #fff;*/
   border: 1px solid rgba(0, 0, 0, 0.125);
 }
 .list-group-item:first-child {
@@ -11504,7 +11504,7 @@ footer.footer .social-link:hover {
   /font-family: 'Readex Pro', sans-serif;*/
   font-family: 'Reem Kufi Fun', sans-serif;
   font-weight: 700;
-  font-size: 2.5rem;
+  font-size: 1.8rem;
 }
 
 .masthead-sub {
@@ -11515,13 +11515,13 @@ footer.footer .social-link:hover {
   height: auto;
   padding-top: 4rem;
   padding-bottom: 4rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-page-end.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .masthead-sub h1, .masthead .h1 {
-  font-size: 2rem;
+  font-size: 3rem;
   margin: 0;
   padding: 0;
 }
@@ -11532,6 +11532,13 @@ footer.footer .social-link:hover {
   }
   .masthead h1, .masthead .h1 {
     font-size: 5.5rem;
+  }
+  .masthead h3, .masthead .h3{
+    /*font-family: 'Zen Maru Gothic', sans-serif;
+    /font-family: 'Readex Pro', sans-serif;*/
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
   }
 }
 .page-end {
@@ -11656,3 +11663,10 @@ footer.footer .social-link:hover {
   font-family: 'Reem Kufi Fun', sans-serif;
   font-weight: 700;
 }
+
+@media (min-width: 992px) {
+  .youtube {
+    width: 560px;
+    height: 315px;
+  }
+  }
