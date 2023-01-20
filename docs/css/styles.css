@@ -619,6 +619,13 @@ progress {
   height: auto;
 }
 
+.img-crd_thumbnail {
+  padding: 0.25rem;
+
+  max-width: 100%;
+  height: auto;
+}
+
 .figure {
   display: inline-block;
 }
@@ -11663,10 +11670,31 @@ footer.footer .social-link:hover {
   font-family: 'Reem Kufi Fun', sans-serif;
   font-weight: 700;
 }
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
 
 @media (min-width: 992px) {
   .youtube {
     width: 560px;
     height: 315px;
   }
+  #iyada_crd {
+    max-width:60%;
   }
+  #game_setting_crd {
+    max-width:70%;
+  }
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1400px) {
+
+}
