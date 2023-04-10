@@ -24,7 +24,36 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=BIZ+UDGothic&family=Dela+Gothic+One&family=League+Gothic&family=Rampart+One&family=Readex+Pro:wght@400;700&family=Reem+Kufi+Fun:wght@400;700&family=Zen+Maru+Gothic:wght@400;700&display=swap" rel="stylesheet">   
+        <style>
+            ul#toc_list{
+                font-size:0.8em;
+                background: #dadada;/*灰色に*/
+                background: #fffde8;
+                box-shadow: 0px 0px 0px 10px #fffde8;/*線の外側*/
+                border: dashed 2px #ecb807;/*破線*/
+                border-radius: 9px;
+                margin-left: 10px;/*はみ出ないように調整*/
+                margin-right: 10px;/*はみ出ないように調整*/
+                padding: 0.5em 0.5em 0.5em 2em;
+            }
 
+            ul#toc_list li{
+                line-height: 1.5;
+                list-style: none; 
+            }
+
+            div.option_rule{
+                background: #dadada;/*灰色に*/
+                background: #fffde8;
+                box-shadow: 0px 0px 0px 10px #fffde8;/*線の外側*/
+                border: dashed 2px #ecb807;/*破線*/
+                border-radius: 9px;
+                margin-left: 10px;/*はみ出ないように調整*/
+                margin-right: 10px;/*はみ出ないように調整*/
+                padding: 0.5em 0.5em 0.5em 0em;
+
+            }
+        </style>
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -93,12 +122,31 @@
                 <div class="content-section-heading text-center">
                     <h2 class="mb-5">遊び方</h2>
                 </div>
+                    
 
                 <div class="col-12 col-md-10　mt-5 mx-auto lead">
-                    
+
+                    <div class="row gx-4 gx-lg-5 justify-content-center mt-5 play_flow col-md-11 col-lg-9 col-xl-8 mx-auto lead">
+                        <div class="text-start ">
+                            <ul id="toc_list">
+                                <li><a href="#toc1">1. 設定用紙にまちの名前を記入してみんなの見えるところに置く</a></li>
+                                <li><a href="#toc2">2. キーワードカードを配る</a></li>
+                                <li><a href="#toc3">3. つなげるカードを配る</a></li>
+                                <li><a href="#toc4">4. いやだ（笑）カードを配る</a></li>
+                                <li><a href="#toc5">5. 順番を決める</a></li>
+                                <li><a href="#play6">6. 見出しカードを真ん中にスタンバイ</a></li>
+                                <li><a href="#toc7">7. 手持ちのキーワードカードから選んで出す</a></li>
+                                <li><a href="#toc8">8. 手持ちのキーワードカードから選んで出す</a></li>
+                                <li><a href="#toc9">9. いやだ（笑）カードを使って投票</a></li>
+                                <li><a href="#toc_repeat"><i class="fa fa-repeat" aria-hidden="true"></i>　3巡する</a></li>
+                                <li><a href="#toc_if">if 「いやだ（笑）カード」を一番多く集めたものが複数いる場合</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
                     <div class="row gx-4 gx-lg-5 justify-content-center mt-5 play_flow">
                         <div class="text-start">
-                            <h3>1 設定用紙にまちの名前を記入してみんなの見えるところに置く</h3>
+                            <h3 id="toc1">1 設定用紙にまちの名前を記入してみんなの見えるところに置く</h3>
                             <p class="col-10 mx-auto">
                                 自分たちの徒歩15分のまち、 超ローカルなエリアの名前を書いて、みんなの見えるところに置く。</p>
                             <p class="text-center">
@@ -110,20 +158,37 @@
                     <hr>
                     <div class="row gx-4 gx-lg-5 justify-content-center mt-5 play_flow">
                         <div class="text-start">
-                                    <h3>2 キーワードカードを配る</h3>
+                                    <h3 id="toc2">2 キーワードカードを配る</h3>
                                     <p class="col-10 mx-auto">
                                         他のプレイヤーに見えないように「キーワードカード」を5枚ずつ配る </p>
                                     <p class="text-center">
                                         <img alt="緑、赤、紫のモンスターにキーワードカードを5枚配布。" class="img-fluid  col-md-8 col-lg-6" src="assets/img/002_play.jpg">
-                                    </p>     
+                                    </p>
                             </div>
                     </div>
-    
+                    <p class="col-10 mx-auto" style="font-size:0.8em">
+                        ※オプションルールは、ドロカルに慣れない方や初めて遊ぶときにお勧めのルールです。</p>
+                    <div class="row gx-4 gx-lg-5 justify-content-center mt-5 play_flow option_rule">
+
+                            <div class="text-start">
+                                <h4 id="toc2_op1">（オプションルール1）キーワードカードを引き直す</h4>
+                                <p class="col-11 mx-auto">
+                                    もし手札となったキーワードカードに使いたいキーワードがなかったら、キーワードカードを山札から選び直す。キーワードカードの交換を何枚まで認めるかは、プレイヤーの話し合い！</p>
+                            </div>
+                    </div>
+                    <div class="row gx-4 gx-lg-5 justify-content-center mt-5 play_flow option_rule">
+
+                        <div class="text-start">
+                            <h4 id="toc2_op1">（オプションルール2） キーワードカードを全部広げて選ぶ</h4>
+                            <p class="col-11 mx-auto">
+                            キーワードカードをかるたの札のように全部広げて、その中から選ぶ。表にして広げて選んでも、裏返して広げて運任せにして選ぶのもアリ！</p>
+                        </div>
+                    </div>
                     <hr>
 
                     <div class="row gx-4 gx-lg-5 justify-content-center mt-5 play_flow">
                         <div class="text-start">
-                                    <h3>3 つなげるカードを配る</h3>
+                                    <h3 id="toc3">3 つなげるカードを配る</h3>
                                     <p class="col-10 mx-auto">
                                     「つなげるカード」は2種類あるので、それぞれ1枚ずつ、合計2枚配る</p>
                                     <p class="text-center">
@@ -136,7 +201,7 @@
 
                     <div class="row gx-4 gx-lg-5 justify-content-center mt-5 play_flow">
                         <div class="text-start">
-                                    <h3>4 いやだ（笑）カードを配る</h3>
+                                    <h3 id="toc4">4 いやだ（笑）カードを配る</h3>
                                     <p class="col-10 mx-auto">
                                         「いやだ（笑）カード」は3枚ずつ配る。</p>
                                     <p class="text-center">
@@ -148,7 +213,7 @@
                     <hr>
                     <div class="row gx-4 gx-lg-5 justify-content-center mt-5 play_flow">
                         <div class="text-start">
-                                    <h3>5 順番を決める</h3>
+                                    <h3 id="toc5">5 順番を決める</h3>
                                     <p class="col-10 mx-auto">
                                         「見出しカード」をめくる順番を決める。</p>
                                     <p class="col-10 mx-auto">
@@ -178,7 +243,7 @@
 
                     <div class="row gx-4 gx-lg-5 justify-content-center mt-5 play_flow">
                         <div class="text-start">
-                                    <h3>7 手持ちのキーワードカードから選んで出す</h3>
+                                    <h3  id="toc7">7 手持ちのキーワードカードから選んで出す</h3>
                                     <p class="col-10 mx-auto">
                                         プレイヤーはその「見出しカード」の黒塗り部分（ブラックアウト）にふさわしいワードを自分が持っている「キーワードカード」の中から選んで出す。</p>
 
@@ -199,7 +264,7 @@
 
                     <div class="row gx-4 gx-lg-5 justify-content-center mt-5 play_flow">
                         <div class="text-start">
-                                    <h3>8 順番に選んだキーワードと一緒に見出しを読み上げる</h3>
+                                    <h3  id="toc8">8 順番に選んだキーワードと一緒に見出しを読み上げる</h3>
                                     <p class="col-10 mx-auto">
                                         「見出しカード」の黒塗り部分にキーワードを入れて完成させた見出しを他のプレイヤーに伝える。</p>
                                     <p class="text-center">
@@ -212,9 +277,9 @@
 
                     <div class="row gx-4 gx-lg-5 justify-content-center mt-5 play_flow">
                         <div class="text-start">
-                                    <h3>9 いやだ（笑）カードを使って投票</h3>
+                                    <h3 id="toc9">9 いやだ（笑）カードを使って投票</h3>
                                     <p class="col-10 mx-auto">
-                                        いちばん「いやだ(笑) 」「気に入った！」「面白い！」と感じた見出しを作ったプレーヤーに「いやだ（笑) カード」を渡す。</p>
+                                        いちばん「いやだ(笑) 」「気に入った！」「面白い！」と感じた見出しを作ったプレーヤーに「いやだ（笑） カード」を渡す。</p>
                                     <p class="text-center">
                                         <img alt="いやだ（笑）カードをプレイヤーがあげている図。" src="assets/img/009_play.jpg" class="img-fluid  col-md-8 col-lg-6">
                                     </p>     
@@ -225,7 +290,7 @@
 
                     <div class="row gx-4 gx-lg-5 justify-content-center mt-5 play_flow">
                         <div class="text-start">
-                                    <h3><span style="font-size:3em;line-height: 0.5;"><i class="fa fa-repeat" aria-hidden="true"></i></span> 3巡する</h3>
+                                    <h3  id="toc_repeat"><span style="font-size:3em;line-height: 0.5;"><i class="fa fa-repeat" aria-hidden="true"></i></span> 3巡する</h3>
                                     <p class="col-10 mx-auto">
                                     使用した「キーワードカード」は手札から除外する。</p>
                                     <p class="col-10 mx-auto">
@@ -242,7 +307,7 @@
                     </div>
                     <div class="row gx-4 gx-lg-5 justify-content-center mt-5">
                         <div class="text-start">
-                                    <h3><span style="font-size:3em;line-height: 0.5;">if</span> 「いやだ（笑）カード」を一番多く集めたものが複数いる場合</h3>
+                                    <h3  id="toc_if"><span style="font-size:3em;line-height: 0.5;">if</span> 「いやだ（笑）カード」を一番多く集めたものが複数いる場合</h3>
                                     <p class="col-10 mx-auto mt-5">                                
                                      「いやだ（笑）カード」を一番多く集めたものが複数いる場合は、上位者のみでサドンデス！</p>  
                             </div>
